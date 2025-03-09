@@ -88,6 +88,36 @@ export default function Sidebar() {
           </div>
         </div>
       </nav>
+      {/* Footer Part  */}
+      <footer className="w-[245px] h-[78px] items-center p-4 ml-7">
+        <div>
+          <span className="font-bold text-[13px] block leading-4 text-nowrap text-gray-400">
+            Sedap Restaurant Admin Dashboard
+          </span>
+          <span className="text-sm text-gray-400 text-nowrap block">
+            © 2025 All Rights Reserved
+          </span>
+
+          <span className="text-sm text-gray-400 text-nowrap block mt-5">
+            Made with <span className="text-rose-500">♥</span> by
+            <a
+              href="https://peterdraw.co/"
+              className="ml-1 hover:text-rose-500 hover:underline"
+            >
+              Peterdraw
+            </a>
+          </span>
+          <span className="text-sm text-gray-400 text-nowrap block">
+            Used with <span className="text-rose-500">♥</span> by{" "}
+            <a
+              href="https://peterdraw.co/"
+              className="ml-1 hover:text-rose-500 hover:underline"
+            >
+              brkcntlsrn
+            </a>
+          </span>
+        </div>
+      </footer>
     </div>
   );
 }
