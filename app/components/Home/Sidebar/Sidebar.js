@@ -2,7 +2,13 @@ export default function Sidebar() {
   return (
     <div className="h-screen w-64 bg-gray-900 text-white flex flex-col p-4">
       {/* Logo */}
-      <div className="text-2xl font-bold text-center py-4">Sedap</div>
+      <div className="py-4 ml-8">
+        <h1 className="text-4xl font-bold ">
+          Sedap<span className="text-green-700">.</span>
+        </h1>
+
+        <p className="text-sm text-gray-500">Modern Admin Dashboard</p>
+      </div>
 
       {/* Menu Items */}
       <nav className="flex flex-col gap-2 mt-4 pl-8">
