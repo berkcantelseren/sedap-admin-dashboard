@@ -64,24 +64,26 @@ export default function Sidebar() {
           );
         })}
         {/* // Banner  */}
-        <div className="bg-[#00B074] w-[260px] h-[149px] mt-15 mb-15 rounded-xl text-white text-[0.75rem] flex justify-between items-center p-4">
+        <div className="bg-[#00B074] w-[260px] h-[149px] mt-15 mb-15 rounded-lg text-white text-[0.75rem] flex justify-between items-center p-4">
           <div className="flex flex-col justify-start items-center w-full">
             <div className="text-start m-5">
               <span className="whitespace-nowrap">Please, organize your</span>
-              <span className="block">menus through button below!</span>
+              <span className="block whitespace-nowrap">
+                menus through button
+              </span>
+              <span className="block">below!</span>
             </div>
             <button className="bg-white text-[15px] text-black font-md rounded-md w-[116px] h-[37px] mb-5 mr-1">
               +Add Menus
             </button>
           </div>
 
-          <div className="ml-4 flex-grow">
+          <div className="ml-4 flex-grow flex justify-center items-center">
             <Image
               src="/images/illustration.svg"
               width={76.59}
               height={90.83}
-              layout="responsive"
-              objectFit="contain"
+              className="transform scale-150 mr-5"
             />
           </div>
         </div>
