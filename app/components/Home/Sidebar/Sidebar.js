@@ -62,6 +62,10 @@ export default function Sidebar() {
             </a>
           );
         })}
+        {/* // Banner  */}
+        <div className="bg-[#00B074] w-[260px] h-[149px] rounded-xl text-white text-[0.75rem]">
+          Please, organize your menus through button bellow!
+        </div>
       </nav>
     </div>
   );
