@@ -81,6 +81,7 @@ export default function Sidebar() {
           <div className="ml-4 flex-grow flex justify-center items-center">
             <Image
               src="/images/illustration.svg"
+              alt="image of chef wearing chef hat"
               width={76.59}
               height={90.83}
               className="transform scale-150 mr-5"
@@ -102,7 +103,7 @@ export default function Sidebar() {
             Made with <span className="text-rose-500">♥</span> by
             <a
               href="https://peterdraw.co/"
-              className="ml-1 hover:text-rose-500 hover:underline"
+              className="ml-1 hover:text-rose-500 hover:underline glowing-text"
             >
               Peterdraw
             </a>
@@ -110,7 +111,7 @@ export default function Sidebar() {
           <span className="text-sm text-gray-400 text-nowrap block">
             Used with <span className="text-rose-500">♥</span> by{" "}
             <a
-              href="https://peterdraw.co/"
+              href="https://www.linkedin.com/in/berkcantelseren/"
               className="ml-1 hover:text-rose-500 hover:underline"
             >
               brkcntlsrn
