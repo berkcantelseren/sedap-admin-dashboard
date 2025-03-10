@@ -22,7 +22,7 @@ export default function Sidebar() {
   };
 
   return (
-    <div className="h-screen w-[345px] bg-white text-black flex flex-col p-4">
+    <div className="sticky top-0 h-screen w-[345px] bg-white text-black flex flex-col p-4">
       {/* Logo */}
       <div className="py-4 ml-10 mb-10">
         <h1
