@@ -27,15 +27,27 @@ export default function Navbar() {
         <div className="grid grid-cols-4 gap-15 p-5">
           <div className="bg-blue-300/40 rounded-xl p-4 mx-auto cursor-pointer group">
             <GoBellFill className="w-6 h-6 text-blue-400 transition-transform group-hover:scale-120" />
+            <div className="absolute top-0 right-0 w-5 h-5 bg-blue-400 text-white text-xs rounded-full flex items-center justify-center mr-29 mt-7 text-center">
+              21
+            </div>
           </div>
           <div className="bg-blue-300/40 rounded-xl p-4 mx-auto cursor-pointer group">
             <RiMessage2Line className="w-6 h-6 text-blue-400 transition-transform group-hover:scale-120" />
+            <div className="absolute top-0 right-0 w-5 h-5 bg-blue-400 text-white text-xs rounded-full flex items-center justify-center mr-12 mt-7">
+              53
+            </div>
           </div>
           <div className="bg-purple-900/25 rounded-xl p-4 mx-auto cursor-pointer group">
             <SlPresent className="w-6 h-6 text-[#5e6c93] transition-transform group-hover:scale-120" />
+            <div className="absolute top-0 right-0 w-5 h-5 bg-[#5e6c93] text-white text-xs rounded-full flex items-center justify-center -mr-5 mt-7">
+              15
+            </div>
           </div>
           <div className="bg-rose-500/25 rounded-xl p-4 mx-auto cursor-pointer group">
             <IoSettingsOutline className="w-6 h-6 text-rose-500 transition-transform group-hover:scale-120" />
+            <div className="absolute top-0 right-0 w-5 h-5 bg-rose-400 text-white text-xs rounded-full flex items-center justify-center -mr-22 mt-7">
+              19
+            </div>
           </div>
         </div>
       </div>
