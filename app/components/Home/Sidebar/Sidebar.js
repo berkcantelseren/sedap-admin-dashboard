@@ -26,15 +26,17 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="py-4 ml-10 mb-10">
         <h1
-          className={`${poppinsFont.className} text-[3rem] font-bold text-[#333333]`}
+          className={`${poppinsFont.className} text-[3rem] font-bold text-[#333333] custom-selection-2`}
         >
           Sedap
-          <span className="text-[#00B074] text-[25px] relative left-[2px] top-[7px]">
+          <span className="text-[#00B074] text-[25px] relative left-[2px] top-[7px] select-none">
             •
           </span>
         </h1>
 
-        <p className="text-[18px] text-gray-400">Modern Admin Dashboard</p>
+        <p className="text-[18px] text-gray-400 custom-selection-2">
+          Modern Admin Dashboard
+        </p>
       </div>
 
       {/* Menu Items */}
@@ -48,7 +50,7 @@ export default function Sidebar() {
             <a
               key={index}
               href={item.href}
-              className={`relative px-4 py-2 rounded-md transition ${getActiveClass(
+              className={`relative px-4 py-2 rounded-md transition select-none ${getActiveClass(
                 item.href
               )}`}
             >
@@ -65,7 +67,7 @@ export default function Sidebar() {
         })}
         {/* // Banner  */}
         <div className="bg-[#00B074] w-[260px] h-[149px] mt-15 mb-15 rounded-lg text-white text-[0.75rem] flex justify-between items-center p-4">
-          <div className="flex flex-col justify-start items-center w-full">
+          <div className="flex flex-col justify-start items-center w-full select-none">
             <div className="text-start m-5">
               <span className="whitespace-nowrap">Please, organize your</span>
               <span className="block whitespace-nowrap">
@@ -73,7 +75,7 @@ export default function Sidebar() {
               </span>
               <span className="block">below!</span>
             </div>
-            <button className="bg-white text-[15px] text-black font-md rounded-md w-[116px] h-[37px] mb-5 mr-1">
+            <button className="bg-white text-[15px] text-black font-md rounded-md w-[116px] h-[37px] mb-5 mr-1 cursor-pointer">
               +Add Menus
             </button>
           </div>
@@ -84,13 +86,13 @@ export default function Sidebar() {
               alt="image of chef wearing chef hat"
               width={76.59}
               height={90.83}
-              className="transform scale-150 mr-5"
+              className="transform scale-150 mr-5 select-none"
             />
           </div>
         </div>
       </nav>
       {/* Footer Part  */}
-      <footer className="w-[245px] h-[78px] items-center p-4 ml-7">
+      <footer className="w-[245px] h-[78px] items-center p-4 ml-7 select-none">
         <div>
           <span className="font-bold text-[13px] block leading-4 text-nowrap text-gray-400">
             Sedap Restaurant Admin Dashboard
@@ -103,13 +105,13 @@ export default function Sidebar() {
             Made with <span className="text-rose-500">♥</span> by
             <a
               href="https://peterdraw.co/"
-              className="ml-1 hover:text-rose-500 hover:underline glowing-text"
+              className="ml-1 hover:text-rose-500 hover:underline"
             >
               Peterdraw
             </a>
           </span>
           <span className="text-sm text-gray-400 text-nowrap block">
-            Used with <span className="text-rose-500">♥</span> by{" "}
+            Used with <span className="text-rose-500">♥</span> by
             <a
               href="https://www.linkedin.com/in/berkcantelseren/"
               className="ml-1 hover:text-rose-500 hover:underline"
