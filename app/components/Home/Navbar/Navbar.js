@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="w-[75%] fixed ml-[65px] justify-items-center h-24">
+    <div className="w-[75%] fixed ml-[65px] bg-white justify-items-center h-24 hidden lg:block">
       <div className="group">
         {/* search section  */}
         <input
