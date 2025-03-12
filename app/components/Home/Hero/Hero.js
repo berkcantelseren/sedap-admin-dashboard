@@ -15,10 +15,39 @@ export default function Hero() {
       </h1>
       <p className="text-gray-400">Hi, Berkcan. Welcome back to Sedap Admin!</p>
       <div className="grid grid-cols-4 mt-20 ml-30">
-        <div></div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+        {/* icons section  */}
+        <div>
+          <Image
+            src="images/Icon_Order.svg"
+            alt="order icon"
+            width={85}
+            height={85}
+          />
+        </div>
+        <div>
+          <Image
+            src="images/Icon_Delivered.svg"
+            alt="order icon"
+            width={85}
+            height={85}
+          />
+        </div>
+        <div>
+          <Image
+            src="images/Icon_Cancel.svg"
+            alt="order icon"
+            width={85}
+            height={85}
+          />
+        </div>
+        <div>
+          <Image
+            src="images/Icon_Revenue.svg"
+            alt="order icon"
+            width={85}
+            height={85}
+          />
+        </div>
       </div>
     </div>
   );
