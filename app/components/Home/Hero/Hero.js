@@ -14,39 +14,98 @@ export default function Hero() {
         Dashboard
       </h1>
       <p className="text-gray-400">Hi, Berkcan. Welcome back to Sedap Admin!</p>
-      <div className="grid grid-cols-4 mt-20 ml-30">
+      <div className="grid grid-cols-4 mt-20 ml-10 gap-10">
         {/* icons section  */}
-        <div>
+        <div className="flex">
           <Image
             src="images/Icon_Order.svg"
             alt="order icon"
             width={85}
             height={85}
+            className="mb-6"
           />
+          <div className="ml-5">
+            <h1 className="font-bold text-4xl text-gray-700">75</h1>
+            <p className="mt-2">Total Orders</p>
+            <div className="flex mt-1">
+              <Image
+                src="images/UpArrow.svg"
+                alt="order icon"
+                width={16}
+                height={16}
+              />
+              <p className="text-sm text-gray-400 ml-2">4% (30 days)</p>
+            </div>
+          </div>
         </div>
-        <div>
+        {/* second icon  */}
+        <div className="flex">
           <Image
-            src="images/Icon_Delivered.svg"
+            src="images/Icon_Order.svg"
             alt="order icon"
             width={85}
             height={85}
+            className="mb-6"
           />
+          <div className="ml-5">
+            <h1 className="font-bold text-4xl text-gray-700">357</h1>
+            <p className="mt-2">Total Delivered</p>
+            <div className="flex mt-1">
+              <Image
+                src="images/UpArrow.svg"
+                alt="order icon"
+                width={16}
+                height={16}
+              />
+              <p className="text-sm text-gray-400 ml-2">4% (30 days)</p>
+            </div>
+          </div>
         </div>
-        <div>
+        {/* third icon  */}
+        <div className="flex">
           <Image
-            src="images/Icon_Cancel.svg"
+            src="images/Icon_Order.svg"
             alt="order icon"
             width={85}
             height={85}
+            className="mb-6"
           />
+          <div className="ml-5">
+            <h1 className="font-bold text-4xl text-gray-700">75</h1>
+            <p className="mt-2">Total Orders</p>
+            <div className="flex mt-1">
+              <Image
+                src="images/UpArrow.svg"
+                alt="order icon"
+                width={16}
+                height={16}
+              />
+              <p className="text-sm text-gray-400 ml-2">4% (30 days)</p>
+            </div>
+          </div>
         </div>
-        <div>
+        {/* fourth icon  */}
+        <div className="flex">
           <Image
-            src="images/Icon_Revenue.svg"
+            src="images/Icon_Order.svg"
             alt="order icon"
             width={85}
             height={85}
+            className="mb-6"
           />
+          <div className="ml-5">
+            <h1 className="font-bold text-4xl text-gray-700">75</h1>
+            <p className="mt-2">Total Orders</p>
+            <div className="flex mt-1">
+              <Image
+                src="images/UpArrow.svg"
+                alt="order icon"
+                width={16}
+                height={16}
+              />
+              <p className="text-sm text-gray-400 ml-2">4% (30 days)</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
