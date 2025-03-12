@@ -17,6 +17,8 @@ export default function Home() {
             brkcntlsrn
           </a>{" "}
           is working on making this website fully responsive. Come back later!"
+          1- Zoom out if you using %110 or some other thing site may noy be
+          visible or might be errors around.
         </p>
       </div>
 
