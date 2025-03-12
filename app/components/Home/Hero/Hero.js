@@ -75,7 +75,7 @@ export default function Hero() {
             <p className="mt-2">Total Canceled</p>
             <div className="flex mt-1">
               <Image
-                src="images/UpArrow.svg"
+                src="images/DownArrow.svg"
                 alt="order icon"
                 width={16}
                 height={16}
@@ -98,7 +98,7 @@ export default function Hero() {
             <p className="mt-2">Total Revenue</p>
             <div className="flex mt-1">
               <Image
-                src="images/UpArrow.svg"
+                src="images/DownArrow.svg"
                 alt="order icon"
                 width={16}
                 height={16}
@@ -108,6 +108,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      {/* graph section  */}
+      <div></div>
     </div>
   );
 }
